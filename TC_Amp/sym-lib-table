@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "2025-02-03_00-05-09")(type "KiCad")(uri "${KIPRJMOD}/Symbols/2025-02-03_00-05-09.kicad_sym")(options "")(descr ""))
+  (lib (name "LTC1049CN8_PBF")(type "KiCad")(uri "${KIPRJMOD}/Symbols/LTC1049CN8_PBF.kicad_sym")(options "")(descr ""))
+)
