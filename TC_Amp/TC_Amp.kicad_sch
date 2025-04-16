@@ -2975,227 +2975,6 @@
 				)
 			)
 		)
-		(symbol "dk_PMIC-Voltage-Regulators-Linear:LM317T"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "LM317T"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "digikey-footprints:TO-220-3"
-				(at 5.08 5.08 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/group1/a0/db/e6/9b/6f/9c/45/7b/CD00000455/files/CD00000455.pdf/jcr:content/translations/en.CD00000455.pdf"
-				(at 5.08 7.62 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "IC REG LIN POS ADJ 1.5A TO220AB"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Digi-Key_PN" "497-1575-5-ND"
-				(at 5.08 10.16 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "MPN" "LM317T"
-				(at 5.08 12.7 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Category" "Integrated Circuits (ICs)"
-				(at 5.08 15.24 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Family" "PMIC - Voltage Regulators - Linear"
-				(at 5.08 17.78 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "DK_Datasheet_Link" "http://www.st.com/content/ccc/resource/technical/document/datasheet/group1/a0/db/e6/9b/6f/9c/45/7b/CD00000455/files/CD00000455.pdf/jcr:content/translations/en.CD00000455.pdf"
-				(at 5.08 20.32 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "DK_Detail_Page" "/product-detail/en/stmicroelectronics/LM317T/497-1575-5-ND/591677"
-				(at 5.08 22.86 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "IC REG LIN POS ADJ 1.5A TO220AB"
-				(at 5.08 25.4 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "STMicroelectronics"
-				(at 5.08 27.94 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Status" "Active"
-				(at 5.08 30.48 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "497-1575-5-ND"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LM317T_0_1"
-				(rectangle
-					(start -5.08 2.54)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "LM317T_1_1"
-				(pin input line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "ADJ"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers hide)
@@ -3810,18 +3589,6 @@
 		(uuid "362f4b24-1ece-46aa-9b2d-adab5e084e38")
 	)
 	(junction
-		(at 114.3 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3c8893fe-7f60-4eac-b51f-84778ffb780a")
-	)
-	(junction
-		(at 114.3 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3cd2dd91-baf1-4dc8-ad63-d133b76f4221")
-	)
-	(junction
 		(at 257.81 320.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3838,12 +3605,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "506bbed9-e4af-4005-a0c5-e73953fa04f7")
-	)
-	(junction
-		(at 88.9 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5e7477ee-ccdd-4a26-8d01-56337f2da44d")
 	)
 	(junction
 		(at 38.1 340.36)
@@ -3942,12 +3703,6 @@
 		(uuid "b90627c9-4e41-46b9-81fb-bf437e8c4b3d")
 	)
 	(junction
-		(at 123.19 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bcb46498-0dd8-4cd5-9cc7-b86b18f1252c")
-	)
-	(junction
 		(at 128.27 227.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3958,6 +3713,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c296096f-6f0d-4bca-9fe9-58e408dbbb26")
+	)
+	(junction
+		(at 96.52 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c30f1b69-62cc-4c8c-a149-f7c26d67a5cd")
 	)
 	(junction
 		(at 148.59 246.38)
@@ -4012,12 +3773,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d7e29c52-612b-49a3-88a3-fa8e74ff5b14")
-	)
-	(junction
-		(at 114.3 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d81d0b56-6792-4e4e-aa5b-2914f26944f5")
 	)
 	(junction
 		(at 180.34 328.93)
@@ -4357,7 +4112,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 36.83) (xy 125.73 36.83)
+			(xy 96.52 36.83) (xy 99.06 36.83)
 		)
 		(stroke
 			(width 0)
@@ -4517,16 +4272,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 36.83) (xy 123.19 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b80a820-f184-41b3-8d85-bd490f4d9453")
-	)
-	(wire
-		(pts
 			(xy 110.49 130.81) (xy 115.57 130.81)
 		)
 		(stroke
@@ -4597,13 +4342,13 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 36.83) (xy 88.9 36.83)
+			(xy 262.89 46.99) (xy 264.16 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "334e7293-81be-43af-8634-90dbd4e55602")
+		(uuid "3499bf2f-3d63-4ed2-8ebb-5718566a338f")
 	)
 	(wire
 		(pts
@@ -4844,16 +4589,6 @@
 			(type default)
 		)
 		(uuid "52a0bec9-2d1d-4cde-a2c0-e912c05efc5c")
-	)
-	(wire
-		(pts
-			(xy 114.3 52.07) (xy 114.3 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55b370c4-4dee-40c0-be07-a120b6be2f92")
 	)
 	(wire
 		(pts
@@ -5157,7 +4892,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 36.83) (xy 96.52 36.83)
+			(xy 83.82 36.83) (xy 96.52 36.83)
 		)
 		(stroke
 			(width 0)
@@ -5307,6 +5042,16 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 46.99) (xy 271.78 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ac76644-20d5-4a8b-ba13-127e5228442c")
+	)
+	(wire
+		(pts
 			(xy 257.81 121.92) (xy 241.3 121.92)
 		)
 		(stroke
@@ -5337,7 +5082,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 36.83) (xy 123.19 40.64)
+			(xy 96.52 36.83) (xy 96.52 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5547,7 +5292,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 48.26) (xy 123.19 52.07)
+			(xy 96.52 45.72) (xy 96.52 46.99)
 		)
 		(stroke
 			(width 0)
@@ -5717,16 +5462,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 36.83) (xy 114.3 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8b70a70-4326-4164-8de7-46111d3d2a9c")
-	)
-	(wire
-		(pts
 			(xy 63.5 327.66) (xy 63.5 337.82)
 		)
 		(stroke
@@ -5814,16 +5549,6 @@
 			(type default)
 		)
 		(uuid "c51f94e9-0043-4393-bdfa-24ec42a7f0cf")
-	)
-	(wire
-		(pts
-			(xy 123.19 52.07) (xy 114.3 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c55eb349-1ac2-49af-bd1f-d1b33bacdc55")
 	)
 	(wire
 		(pts
@@ -6064,16 +5789,6 @@
 			(type default)
 		)
 		(uuid "e20c36b7-3024-435e-af6a-7722f86b3ef1")
-	)
-	(wire
-		(pts
-			(xy 104.14 44.45) (xy 114.3 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6a02f14-0dd1-44c1-bb58-178ec98a5c50")
 	)
 	(wire
 		(pts
@@ -6422,7 +6137,7 @@
 	)
 	(rectangle
 		(start 59.69 12.7)
-		(end 135.89 60.96)
+		(end 107.95 54.61)
 		(stroke
 			(width 0)
 			(type default)
@@ -6615,17 +6330,6 @@
 		)
 		(uuid "4725940b-29e2-408c-bc51-e2c27b27bc9b")
 	)
-	(text "For Vout = 5V, Rbottom = 3 * Rtop. Want Rbottom \nsmall enough so current doesn't effect output \nvoltage so 500 and 1.5k is probably good balance\n"
-		(exclude_from_sim no)
-		(at 60.706 56.896 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5344decd-add1-4d2a-a785-3ad3126ccf2e")
-	)
 	(text "Bias Generation"
 		(exclude_from_sim no)
 		(at 20.32 306.07 0)
@@ -6734,7 +6438,7 @@
 		)
 		(uuid "8e103034-51ab-46d5-8c45-495a0e7a3702")
 	)
-	(text "PFET Reverse Polarity Protection + Voltage Stepdown"
+	(text "PFET Reverse Polarity Protection"
 		(exclude_from_sim no)
 		(at 60.452 14.986 0)
 		(effects
@@ -8084,7 +7788,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 123.19 44.45 0)
+		(at 96.52 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8093,7 +7797,7 @@
 		(fields_autoplaced yes)
 		(uuid "27eb2fcf-1ffa-49ec-a7b5-95342788fb95")
 		(property "Reference" "C14"
-			(at 127 43.1799 0)
+			(at 100.33 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8102,7 +7806,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 127 45.7199 0)
+			(at 100.33 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8111,7 +7815,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H5.0mm_P2.00mm"
-			(at 124.1552 48.26 0)
+			(at 97.4852 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8120,7 +7824,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 44.45 0)
+			(at 96.52 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8129,7 +7833,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 123.19 44.45 0)
+			(at 96.52 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8658,17 +8362,34 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 88.9 44.45 0)
+		(lib_id "Device:R_US")
+		(at 267.97 46.99 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "36169e10-41b0-49ba-95a9-931175441e97")
-		(property "Reference" "#PWR022"
-			(at 88.9 50.8 0)
+		(uuid "3650400d-8727-4caf-9279-4f063b3e9f06")
+		(property "Reference" "R24"
+			(at 269.494 42.672 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 269.24 44.704 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 268.224 45.974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8676,16 +8397,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 88.9 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 44.45 0)
+		(property "Datasheet" "~"
+			(at 267.97 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8693,8 +8406,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 88.9 44.45 0)
+		(property "Description" "Resistor, US symbol"
+			(at 267.97 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8702,22 +8415,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "2"
+			(uuid "ed15a62a-e378-4ec0-a4e1-24491b6f2921")
 		)
 		(pin "1"
-			(uuid "6bbe36e7-cbfd-43a7-a208-380b56345add")
+			(uuid "c7475376-9e3f-4488-b9ee-dac997489bd2")
 		)
 		(instances
 			(project "TC_Amp"
 				(path "/4930a40b-d9a2-42ec-982c-b1e056cf9c0f"
-					(reference "#PWR022")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -9187,6 +8894,72 @@
 			(project "TC_Amp"
 				(path "/4930a40b-d9a2-42ec-982c-b1e056cf9c0f"
 					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 96.52 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ba2bb8c-dd36-4214-96b9-007ee5eb00f2")
+		(property "Reference" "#PWR02"
+			(at 96.52 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 96.52 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 96.52 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec4088c9-88b7-48d7-b64e-1c0165d6aa7d")
+		)
+		(instances
+			(project "TC_Amp"
+				(path "/4930a40b-d9a2-42ec-982c-b1e056cf9c0f"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -9740,6 +9513,72 @@
 			(project "TC_Amp"
 				(path "/4930a40b-d9a2-42ec-982c-b1e056cf9c0f"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 271.78 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "567ad22b-b0e5-4574-a89d-123e3344afb2")
+		(property "Reference" "#PWR01"
+			(at 271.78 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 271.78 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 271.78 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 271.78 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0c43dac-76c5-4d6c-b810-d54a8d269483")
+		)
+		(instances
+			(project "TC_Amp"
+				(path "/4930a40b-d9a2-42ec-982c-b1e056cf9c0f"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -10631,73 +10470,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 262.89 46.99 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "798e8fbf-6e45-487e-bb15-eafde81f17e5")
-		(property "Reference" "#PWR057"
-			(at 269.24 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 266.7 46.9899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 262.89 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 262.89 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 262.89 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "29cd6dc3-2030-4319-b3cf-75ca340ca7c5")
-		)
-		(instances
-			(project "TC_Amp"
-				(path "/4930a40b-d9a2-42ec-982c-b1e056cf9c0f"
-					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Amplifier_Operational:LM741")
 		(at 55.88 327.66 0)
 		(unit 1)
@@ -10912,76 +10684,6 @@
 			(project "TC_Amp"
 				(path "/4930a40b-d9a2-42ec-982c-b1e056cf9c0f"
 					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 88.9 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7fc94039-fcd2-4c17-8c59-d602161e8452")
-		(property "Reference" "C13"
-			(at 92.71 39.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 92.71 41.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H5.0mm_P2.00mm"
-			(at 89.8652 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 88.9 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 88.9 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d2986a56-4258-49b7-8722-e7785ce50860")
-		)
-		(pin "1"
-			(uuid "df021990-3f5e-4c92-84a0-8e8ee0502ff8")
-		)
-		(instances
-			(project "TC_Amp"
-				(path "/4930a40b-d9a2-42ec-982c-b1e056cf9c0f"
-					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -11567,169 +11269,6 @@
 			(project "TC_Amp"
 				(path "/4930a40b-d9a2-42ec-982c-b1e056cf9c0f"
 					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "dk_PMIC-Voltage-Regulators-Linear:LM317T")
-		(at 104.14 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9124e383-1cef-4d2f-9878-807fa73a98d0")
-		(property "Reference" "U14"
-			(at 104.14 29.21 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "LM317T"
-			(at 104.14 31.75 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "digikey-footprints:TO-220-3"
-			(at 109.22 31.75 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/group1/a0/db/e6/9b/6f/9c/45/7b/CD00000455/files/CD00000455.pdf/jcr:content/translations/en.CD00000455.pdf"
-			(at 109.22 29.21 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "IC REG LIN POS ADJ 1.5A TO220AB"
-			(at 104.14 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digi-Key_PN" "497-1575-5-ND"
-			(at 109.22 26.67 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MPN" "LM317T"
-			(at 109.22 24.13 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Category" "Integrated Circuits (ICs)"
-			(at 109.22 21.59 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Family" "PMIC - Voltage Regulators - Linear"
-			(at 109.22 19.05 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "DK_Datasheet_Link" "http://www.st.com/content/ccc/resource/technical/document/datasheet/group1/a0/db/e6/9b/6f/9c/45/7b/CD00000455/files/CD00000455.pdf/jcr:content/translations/en.CD00000455.pdf"
-			(at 109.22 16.51 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "DK_Detail_Page" "/product-detail/en/stmicroelectronics/LM317T/497-1575-5-ND/591677"
-			(at 109.22 13.97 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "IC REG LIN POS ADJ 1.5A TO220AB"
-			(at 109.22 11.43 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "STMicroelectronics"
-			(at 109.22 8.89 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 109.22 6.35 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "551c0b60-26ec-4d60-9a71-4999656eb9a5")
-		)
-		(pin "2"
-			(uuid "a4efd58c-3df1-4b92-9153-4c037e11e773")
-		)
-		(pin "3"
-			(uuid "d0f097c7-320c-4618-a39e-9321241455ff")
-		)
-		(instances
-			(project ""
-				(path "/4930a40b-d9a2-42ec-982c-b1e056cf9c0f"
-					(reference "U14")
 					(unit 1)
 				)
 			)
@@ -13170,75 +12709,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 114.3 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c0a63fd0-7143-4928-b967-3916eb55b0b7")
-		(property "Reference" "R23"
-			(at 116.586 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "500"
-			(at 116.586 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 115.316 40.894 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 114.3 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "076d14ea-60a5-4702-aea9-fded2bbe8b9a")
-		)
-		(pin "1"
-			(uuid "e4c828f9-5efc-4b57-ba2a-753561655a2a")
-		)
-		(instances
-			(project "TC_Amp"
-				(path "/4930a40b-d9a2-42ec-982c-b1e056cf9c0f"
-					(reference "R23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
 		(at 224.79 139.7 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13687,73 +13157,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 114.3 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d011d068-26bb-4f2c-b4b0-4e8f48ae9981")
-		(property "Reference" "#PWR052"
-			(at 114.3 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 114.554 57.404 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ca8866a4-5d4c-49f2-86e7-cde297de17e0")
-		)
-		(instances
-			(project "TC_Amp"
-				(path "/4930a40b-d9a2-42ec-982c-b1e056cf9c0f"
-					(reference "#PWR052")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
-		(at 125.73 36.83 270)
+		(at 99.06 36.83 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13762,7 +13167,7 @@
 		(fields_autoplaced yes)
 		(uuid "d0c44f33-5844-4985-860d-c76146356c78")
 		(property "Reference" "#PWR053"
-			(at 121.92 36.83 0)
+			(at 95.25 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13771,7 +13176,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 129.54 36.8299 90)
+			(at 102.87 36.8299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13780,7 +13185,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 36.83 0)
+			(at 99.06 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13789,7 +13194,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 36.83 0)
+			(at 99.06 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13798,7 +13203,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 125.73 36.83 0)
+			(at 99.06 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15218,75 +14623,6 @@
 			(project "TC_Amp"
 				(path "/4930a40b-d9a2-42ec-982c-b1e056cf9c0f"
 					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 114.3 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fa93271d-9f38-43a1-95c6-3758673eac03")
-		(property "Reference" "R22"
-			(at 116.586 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1.5k"
-			(at 116.586 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 115.316 48.514 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 114.3 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a7856af7-e3fc-4f6e-8f0b-b3a27eb23e33")
-		)
-		(pin "1"
-			(uuid "3795a877-4808-4b63-813f-76bcaccfb238")
-		)
-		(instances
-			(project "TC_Amp"
-				(path "/4930a40b-d9a2-42ec-982c-b1e056cf9c0f"
-					(reference "R22")
 					(unit 1)
 				)
 			)
