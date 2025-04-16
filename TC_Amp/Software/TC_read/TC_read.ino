@@ -2,8 +2,8 @@
 #define TC_PIN A0
 
 //amplifier constants
-float bias = 0.4;
-float gain = 1.5;
+float bias = 1;
+float gain = 1 + (461.7)/(2.01);
 
 //linear seeback coefficient
 float seeback_coeff = 40e-6;
