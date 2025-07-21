@@ -1224,30 +1224,26 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "dk_Diodes-Rectifiers-Single:S1G"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "dk_Diodes-Rectifiers-Single:SS14"
 			(pin_names
-				(offset 0)
-				(hide yes)
+				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at 0 2.54 0)
+				(at 1.27 2.54 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "S1G"
-				(at 0 -2.54 0)
+			(property "Value" "SS14"
+				(at 1.27 -2.54 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 				)
 			)
@@ -1261,7 +1257,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/S1M-D.pdf"
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/SS19-D.PDF"
 				(at 5.08 7.62 0)
 				(effects
 					(font
@@ -1271,7 +1267,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "DIODE GEN PURP 400V 1A SMA"
+			(property "Description" "DIODE SCHOTTKY 40V 1A SMA"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1280,7 +1276,7 @@
 					(hide yes)
 				)
 			)
-			(property "Digi-Key_PN" "S1GFSCT-ND"
+			(property "Digi-Key_PN" "SS14CT-ND"
 				(at 5.08 10.16 0)
 				(effects
 					(font
@@ -1290,7 +1286,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "S1G"
+			(property "MPN" "SS14"
 				(at 5.08 12.7 0)
 				(effects
 					(font
@@ -1320,7 +1316,7 @@
 					(hide yes)
 				)
 			)
-			(property "DK_Datasheet_Link" "https://www.onsemi.com/pub/Collateral/S1M-D.pdf"
+			(property "DK_Datasheet_Link" "https://www.onsemi.com/pub/Collateral/SS19-D.PDF"
 				(at 5.08 20.32 0)
 				(effects
 					(font
@@ -1330,7 +1326,7 @@
 					(hide yes)
 				)
 			)
-			(property "DK_Detail_Page" "/product-detail/en/on-semiconductor/S1G/S1GFSCT-ND/965720"
+			(property "DK_Detail_Page" "/product-detail/en/on-semiconductor/SS14/SS14CT-ND/965729"
 				(at 5.08 22.86 0)
 				(effects
 					(font
@@ -1340,7 +1336,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description_1" "DIODE GEN PURP 400V 1A SMA"
+			(property "Description_1" "DIODE SCHOTTKY 40V 1A SMA"
 				(at 5.08 25.4 0)
 				(effects
 					(font
@@ -1370,7 +1366,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "S1GFSCT-ND"
+			(property "ki_keywords" "SS14CT-ND"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1379,22 +1375,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "S1G_0_1"
+			(symbol "SS14_0_1"
 				(polyline
 					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27)
+						(xy 0 1.27) (xy 0 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -1404,11 +1388,35 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
 			)
-			(symbol "S1G_1_1"
+			(symbol "SS14_1_1"
 				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
+					(at -2.54 0 0)
+					(length 2.54)
 					(name "~"
 						(effects
 							(font
@@ -1416,7 +1424,7 @@
 							)
 						)
 					)
-					(number "A"
+					(number "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1426,7 +1434,7 @@
 				)
 				(pin passive line
 					(at 5.08 0 180)
-					(length 3.81)
+					(length 2.54)
 					(name "~"
 						(effects
 							(font
@@ -1434,7 +1442,7 @@
 							)
 						)
 					)
-					(number "K"
+					(number "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2351,18 +2359,6 @@
 		(uuid "1c489167-bb7b-4ec4-8f03-1863739faa02")
 	)
 	(junction
-		(at 35.56 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1d2e44c0-e9d1-494b-944d-d16868466fd7")
-	)
-	(junction
-		(at 88.9 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2521cc4e-dc0e-47bf-ab69-fc60701d4408")
-	)
-	(junction
 		(at 124.46 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2387,12 +2383,6 @@
 		(uuid "56898893-fd30-4c7c-99eb-090e3148906e")
 	)
 	(junction
-		(at 34.29 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "63b2bd2f-107f-45b5-8fb5-a98bc7d4cbae")
-	)
-	(junction
 		(at 73.66 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2409,18 +2399,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "807fd04f-b99e-422b-80de-e28905ee9aee")
-	)
-	(junction
-		(at 120.65 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8cf44a7e-7f10-4b6c-8aec-d0da084fe6e6")
-	)
-	(junction
-		(at 110.49 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "981505d0-8612-441b-bf16-19aeb68338f8")
 	)
 	(junction
 		(at 63.5 180.34)
@@ -2452,18 +2430,6 @@
 		(color 0 0 0 0)
 		(uuid "cdb2d410-1585-481b-90a4-73e51dc14374")
 	)
-	(junction
-		(at 144.78 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cfec50d5-cf23-41fb-8f52-2da79bc9c6d9")
-	)
-	(junction
-		(at 45.72 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d420e182-de13-4f64-8848-46084218c277")
-	)
 	(no_connect
 		(at 214.63 39.37)
 		(uuid "ca413afe-3031-4b6d-8536-b97a14542665")
@@ -2478,7 +2444,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 59.69) (xy 45.72 59.69)
+			(xy 44.45 59.69) (xy 63.5 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2558,23 +2524,13 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 92.71) (xy 110.49 92.71)
+			(xy 107.95 92.71) (xy 111.76 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1de8746d-3b17-4035-8587-9c178797b4d5")
-	)
-	(wire
-		(pts
-			(xy 35.56 59.69) (xy 36.83 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a1b3a25-7ad0-4f16-b32b-e7bdb3a7a63f")
 	)
 	(wire
 		(pts
@@ -2638,16 +2594,6 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 92.71) (xy 217.17 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fb3beea-8cd6-4ddf-a3ad-b2da547a0308")
-	)
-	(wire
-		(pts
 			(xy 173.99 26.67) (xy 173.99 29.21)
 		)
 		(stroke
@@ -2668,16 +2614,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 59.69) (xy 63.5 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f9c6897-b2a1-467b-af08-53b08a4349c5")
-	)
-	(wire
-		(pts
 			(xy 63.5 39.37) (xy 63.5 41.91)
 		)
 		(stroke
@@ -2688,53 +2624,13 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 102.87) (xy 238.76 102.87)
+			(xy 54.61 92.71) (xy 73.66 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5244cf4f-2385-4e38-b152-a0eb34ac6280")
-	)
-	(wire
-		(pts
-			(xy 110.49 92.71) (xy 111.76 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5572db18-289e-4715-b939-152800717b7c")
-	)
-	(wire
-		(pts
-			(xy 144.78 26.67) (xy 147.32 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a9aae42-0ac4-4133-82f8-4e7aec66cfa6")
-	)
-	(wire
-		(pts
-			(xy 45.72 172.72) (xy 52.07 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cbf8952-4fc4-4d04-bb38-dede5f00a4c2")
-	)
-	(wire
-		(pts
-			(xy 34.29 26.67) (xy 36.83 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60553f1f-5c00-4dda-a335-59e31256a350")
+		(uuid "532c79cb-2b59-4756-ba98-f92712620d16")
 	)
 	(wire
 		(pts
@@ -2748,13 +2644,13 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 95.25) (xy 238.76 95.25)
+			(xy 100.33 26.67) (xy 119.38 26.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "64f681fc-4e8f-4f89-b1a5-de3ddb3f2c75")
+		(uuid "6624e43e-d04d-47bb-90c3-85539fffd1fd")
 	)
 	(wire
 		(pts
@@ -2818,7 +2714,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 26.67) (xy 34.29 26.67)
+			(xy 33.02 26.67) (xy 36.83 26.67)
 		)
 		(stroke
 			(width 0)
@@ -2828,13 +2724,13 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 26.67) (xy 119.38 26.67)
+			(xy 48.26 172.72) (xy 52.07 172.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7bd59f6d-de8c-44b8-92bb-abe1bd6c7c0e")
+		(uuid "7851ec19-d00c-470c-87c4-b04c02f4bd79")
 	)
 	(wire
 		(pts
@@ -2858,26 +2754,6 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 82.55) (xy 240.03 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8809b668-f2da-46d5-bbd2-58521d4853f1")
-	)
-	(wire
-		(pts
-			(xy 43.18 102.87) (xy 46.99 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8907bd48-9949-432c-9805-b6285372d3f8")
-	)
-	(wire
-		(pts
 			(xy 50.8 133.35) (xy 57.15 133.35)
 		)
 		(stroke
@@ -2895,16 +2771,6 @@
 			(type default)
 		)
 		(uuid "8fcd5d77-5122-4fa3-8b95-ea16187799e1")
-	)
-	(wire
-		(pts
-			(xy 238.76 85.09) (xy 240.03 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91fb2724-571b-4da5-902d-707f8eaa60a7")
 	)
 	(wire
 		(pts
@@ -2938,36 +2804,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 92.71) (xy 238.76 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "989eab49-a16a-4d11-8b13-62485b1a02ec")
-	)
-	(wire
-		(pts
-			(xy 57.15 92.71) (xy 73.66 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99fb950f-c169-44ba-b752-0db862a94669")
-	)
-	(wire
-		(pts
-			(xy 214.63 95.25) (xy 215.9 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f46f0c2-3fba-4394-833e-f7a02ed3f692")
-	)
-	(wire
-		(pts
 			(xy 72.39 172.72) (xy 77.47 172.72)
 		)
 		(stroke
@@ -2978,7 +2814,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 26.67) (xy 144.78 26.67)
+			(xy 143.51 26.67) (xy 147.32 26.67)
 		)
 		(stroke
 			(width 0)
@@ -3018,16 +2854,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 93.98) (xy 120.65 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b04842aa-bf23-41eb-a298-b7fc23cce2fa")
-	)
-	(wire
-		(pts
 			(xy 59.69 102.87) (xy 66.04 102.87)
 		)
 		(stroke
@@ -3035,16 +2861,6 @@
 			(type default)
 		)
 		(uuid "b66a2f5a-8d87-413a-b67c-2cd67040f8c1")
-	)
-	(wire
-		(pts
-			(xy 214.63 85.09) (xy 217.17 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbe039dc-23e9-47c7-a4eb-6c6a56af1f02")
 	)
 	(wire
 		(pts
@@ -3058,7 +2874,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 59.69) (xy 35.56 59.69)
+			(xy 33.02 59.69) (xy 36.83 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3078,16 +2894,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 92.71) (xy 138.43 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c62d7c9c-186a-44dc-a145-604e75974360")
-	)
-	(wire
-		(pts
 			(xy 64.77 123.19) (xy 64.77 125.73)
 		)
 		(stroke
@@ -3098,7 +2904,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 92.71) (xy 120.65 92.71)
+			(xy 119.38 92.71) (xy 138.43 92.71)
 		)
 		(stroke
 			(width 0)
@@ -3158,26 +2964,6 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 102.87) (xy 217.17 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e52ce5c3-e1c3-40ac-a633-4c04963e6337")
-	)
-	(wire
-		(pts
-			(xy 214.63 105.41) (xy 217.17 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5e9a98f-acf0-4db7-b9b3-4c6832740328")
-	)
-	(wire
-		(pts
 			(xy 73.66 167.64) (xy 72.39 167.64)
 		)
 		(stroke
@@ -3208,16 +2994,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 105.41) (xy 238.76 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed5d2df1-3060-43f9-ae9c-624eed3deb49")
-	)
-	(wire
-		(pts
 			(xy 63.5 22.86) (xy 63.5 26.67)
 		)
 		(stroke
@@ -3245,26 +3021,6 @@
 			(type default)
 		)
 		(uuid "f2a02374-e418-42d9-949c-1aaf6e6e5f5e")
-	)
-	(wire
-		(pts
-			(xy 110.49 93.98) (xy 110.49 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2f1517d-66ec-41ab-95c5-0abacfcf36ac")
-	)
-	(wire
-		(pts
-			(xy 214.63 82.55) (xy 217.17 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4607de1-9794-48c8-9aa4-0a325d1035fc")
 	)
 	(wire
 		(pts
@@ -3310,7 +3066,7 @@
 	)
 	(global_label "VLV 4"
 		(shape input)
-		(at 240.03 82.55 0)
+		(at 238.76 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3320,7 +3076,7 @@
 		)
 		(uuid "027d77de-1a28-46f0-8e13-87780beb063e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.3976 82.55 0)
+			(at 247.1276 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3376,7 +3132,7 @@
 	)
 	(global_label "AV RUN VLV"
 		(shape input)
-		(at 240.03 102.87 0)
+		(at 238.76 105.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3386,7 +3142,7 @@
 		)
 		(uuid "1b09b421-4fdc-4e32-843f-a46f4ad54a59")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254.2639 102.87 0)
+			(at 252.9939 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3464,7 +3220,7 @@
 	)
 	(global_label "VLV 3"
 		(shape input)
-		(at 217.17 102.87 0)
+		(at 214.63 105.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3474,7 +3230,7 @@
 		)
 		(uuid "3b939561-2d83-47c2-920d-dec674b1e16a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 225.5376 102.87 0)
+			(at 222.9976 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3552,7 +3308,7 @@
 	)
 	(global_label "SAFE POWER 24v"
 		(shape input)
-		(at 45.72 172.72 180)
+		(at 48.26 172.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3562,7 +3318,7 @@
 		)
 		(uuid "557793e0-afca-4eb2-ba6c-1a92dd7c3c92")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.4064 172.72 0)
+			(at 28.9464 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3640,7 +3396,7 @@
 	)
 	(global_label "VLV 2"
 		(shape input)
-		(at 217.17 92.71 0)
+		(at 214.63 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3650,7 +3406,7 @@
 		)
 		(uuid "721503f3-f8e4-48c4-90bc-d02e54c9eab6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 225.5376 92.71 0)
+			(at 222.9976 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3706,7 +3462,7 @@
 	)
 	(global_label "SAFE POWER 24v"
 		(shape input)
-		(at 240.03 95.25 0)
+		(at 238.76 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3716,7 +3472,7 @@
 		)
 		(uuid "7f79bb37-961f-4b1a-8274-15f5fa367d77")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 259.3436 95.25 0)
+			(at 258.0736 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3728,7 +3484,7 @@
 	)
 	(global_label "AV FILL VLV"
 		(shape input)
-		(at 240.03 92.71 0)
+		(at 238.76 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3738,7 +3494,7 @@
 		)
 		(uuid "875e55ad-b243-4665-9180-331e0ba1121e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254.0825 92.71 0)
+			(at 252.8125 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3882,7 +3638,7 @@
 	)
 	(global_label "AV FILL CTL"
 		(shape input)
-		(at 43.18 102.87 180)
+		(at 46.99 102.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3892,7 +3648,7 @@
 		)
 		(uuid "c9d98ae3-b1ab-4ccf-9a38-52f28f988fd4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.0671 102.87 0)
+			(at 32.8771 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3970,7 +3726,7 @@
 	)
 	(global_label "SAFE POWER 24v"
 		(shape input)
-		(at 240.03 105.41 0)
+		(at 238.76 102.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3980,7 +3736,7 @@
 		)
 		(uuid "d671a150-b72d-4731-9d55-84cb480a06d2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 259.3436 105.41 0)
+			(at 258.0736 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4014,7 +3770,7 @@
 	)
 	(global_label "VLV 1"
 		(shape input)
-		(at 217.17 82.55 0)
+		(at 214.63 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4024,7 +3780,7 @@
 		)
 		(uuid "e0877d31-8d68-45f7-9d1b-1c3d10099e34")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 225.5376 82.55 0)
+			(at 222.9976 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4079,9 +3835,8 @@
 		)
 	)
 	(symbol
-		(lib_id "dk_Diodes-Rectifiers-Single:S1G")
-		(at 115.57 93.98 0)
-		(mirror y)
+		(lib_id "dk_Diodes-Rectifiers-Single:SS14")
+		(at 49.53 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4090,33 +3845,23 @@
 		(fields_autoplaced yes)
 		(uuid "046b56cd-9ed4-4a65-a9d6-d43ffd791684")
 		(property "Reference" "D5"
-			(at 115.57 87.63 0)
+			(at 50.8 86.36 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "S1G"
-			(at 115.57 90.17 0)
+		(property "Value" "SS14"
+			(at 50.8 88.9 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "digikey-footprints:DO-214AC"
-			(at 110.49 88.9 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/S1M-D.pdf"
-			(at 110.49 86.36 0)
+		(property "Footprint" "Solenoid Safeguard:DO-214AC"
+			(at 54.61 87.63 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4125,8 +3870,18 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DIODE GEN PURP 400V 1A SMA"
-			(at 115.57 93.98 0)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/SS19-D.PDF"
+			(at 54.61 85.09 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "DIODE SCHOTTKY 40V 1A SMA"
+			(at 49.53 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4134,8 +3889,8 @@
 				(hide yes)
 			)
 		)
-		(property "Digi-Key_PN" "S1GFSCT-ND"
-			(at 110.49 83.82 0)
+		(property "Digi-Key_PN" "SS14CT-ND"
+			(at 54.61 82.55 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4144,8 +3899,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "S1G"
-			(at 110.49 81.28 0)
+		(property "MPN" "SS14"
+			(at 54.61 80.01 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4155,7 +3910,7 @@
 			)
 		)
 		(property "Category" "Discrete Semiconductor Products"
-			(at 110.49 78.74 0)
+			(at 54.61 77.47 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4165,7 +3920,7 @@
 			)
 		)
 		(property "Family" "Diodes - Rectifiers - Single"
-			(at 110.49 76.2 0)
+			(at 54.61 74.93 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4174,8 +3929,8 @@
 				(hide yes)
 			)
 		)
-		(property "DK_Datasheet_Link" "https://www.onsemi.com/pub/Collateral/S1M-D.pdf"
-			(at 110.49 73.66 0)
+		(property "DK_Datasheet_Link" "https://www.onsemi.com/pub/Collateral/SS19-D.PDF"
+			(at 54.61 72.39 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4184,8 +3939,8 @@
 				(hide yes)
 			)
 		)
-		(property "DK_Detail_Page" "/product-detail/en/on-semiconductor/S1G/S1GFSCT-ND/965720"
-			(at 110.49 71.12 0)
+		(property "DK_Detail_Page" "/product-detail/en/on-semiconductor/SS14/SS14CT-ND/965729"
+			(at 54.61 69.85 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4194,8 +3949,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "DIODE GEN PURP 400V 1A SMA"
-			(at 110.49 68.58 0)
+		(property "Description_1" "DIODE SCHOTTKY 40V 1A SMA"
+			(at 54.61 67.31 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4205,7 +3960,7 @@
 			)
 		)
 		(property "Manufacturer" "ON Semiconductor"
-			(at 110.49 66.04 0)
+			(at 54.61 64.77 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4215,7 +3970,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 110.49 63.5 0)
+			(at 54.61 62.23 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4576,9 +4331,8 @@
 		)
 	)
 	(symbol
-		(lib_id "dk_Diodes-Rectifiers-Single:S1G")
-		(at 39.37 26.67 0)
-		(mirror y)
+		(lib_id "dk_Diodes-Rectifiers-Single:SS14")
+		(at 149.86 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4587,33 +4341,23 @@
 		(fields_autoplaced yes)
 		(uuid "0e142ae1-fa11-4e50-8650-8e107215c8cd")
 		(property "Reference" "D3"
-			(at 39.37 20.32 0)
+			(at 151.13 20.32 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "S1G"
-			(at 39.37 22.86 0)
+		(property "Value" "SS14"
+			(at 151.13 22.86 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "digikey-footprints:DO-214AC"
-			(at 34.29 21.59 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/S1M-D.pdf"
-			(at 34.29 19.05 0)
+		(property "Footprint" "Solenoid Safeguard:DO-214AC"
+			(at 154.94 21.59 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4622,8 +4366,18 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DIODE GEN PURP 400V 1A SMA"
-			(at 39.37 26.67 0)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/SS19-D.PDF"
+			(at 154.94 19.05 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "DIODE SCHOTTKY 40V 1A SMA"
+			(at 149.86 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4631,8 +4385,8 @@
 				(hide yes)
 			)
 		)
-		(property "Digi-Key_PN" "S1GFSCT-ND"
-			(at 34.29 16.51 0)
+		(property "Digi-Key_PN" "SS14CT-ND"
+			(at 154.94 16.51 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4641,8 +4395,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "S1G"
-			(at 34.29 13.97 0)
+		(property "MPN" "SS14"
+			(at 154.94 13.97 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4652,7 +4406,7 @@
 			)
 		)
 		(property "Category" "Discrete Semiconductor Products"
-			(at 34.29 11.43 0)
+			(at 154.94 11.43 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4662,7 +4416,7 @@
 			)
 		)
 		(property "Family" "Diodes - Rectifiers - Single"
-			(at 34.29 8.89 0)
+			(at 154.94 8.89 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4671,8 +4425,8 @@
 				(hide yes)
 			)
 		)
-		(property "DK_Datasheet_Link" "https://www.onsemi.com/pub/Collateral/S1M-D.pdf"
-			(at 34.29 6.35 0)
+		(property "DK_Datasheet_Link" "https://www.onsemi.com/pub/Collateral/SS19-D.PDF"
+			(at 154.94 6.35 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4681,8 +4435,8 @@
 				(hide yes)
 			)
 		)
-		(property "DK_Detail_Page" "/product-detail/en/on-semiconductor/S1G/S1GFSCT-ND/965720"
-			(at 34.29 3.81 0)
+		(property "DK_Detail_Page" "/product-detail/en/on-semiconductor/SS14/SS14CT-ND/965729"
+			(at 154.94 3.81 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4691,8 +4445,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "DIODE GEN PURP 400V 1A SMA"
-			(at 34.29 1.27 0)
+		(property "Description_1" "DIODE SCHOTTKY 40V 1A SMA"
+			(at 154.94 1.27 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4702,7 +4456,7 @@
 			)
 		)
 		(property "Manufacturer" "ON Semiconductor"
-			(at 34.29 -1.27 0)
+			(at 154.94 -1.27 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4712,7 +4466,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 34.29 -3.81 0)
+			(at 154.94 -3.81 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6010,16 +5764,16 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 217.17 105.41 270)
-		(mirror x)
+		(at 214.63 102.87 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "48489d8d-72da-4e59-9f17-26c124d89ef7")
 		(property "Reference" "#PWR022"
-			(at 213.36 105.41 0)
+			(at 210.82 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6028,7 +5782,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 220.98 105.4101 90)
+			(at 218.44 102.8699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6037,7 +5791,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 217.17 105.41 0)
+			(at 214.63 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6046,7 +5800,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 105.41 0)
+			(at 214.63 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6055,7 +5809,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 217.17 105.41 0)
+			(at 214.63 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6213,9 +5967,8 @@
 		)
 	)
 	(symbol
-		(lib_id "dk_Diodes-Rectifiers-Single:S1G")
-		(at 149.86 26.67 0)
-		(mirror y)
+		(lib_id "dk_Diodes-Rectifiers-Single:SS14")
+		(at 39.37 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6224,33 +5977,23 @@
 		(fields_autoplaced yes)
 		(uuid "4db34dfa-72e0-4c6a-8f0a-6b1ccad1fcd7")
 		(property "Reference" "D1"
-			(at 149.86 20.32 0)
+			(at 40.64 20.32 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "S1G"
-			(at 149.86 22.86 0)
+		(property "Value" "SS14"
+			(at 40.64 22.86 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "digikey-footprints:DO-214AC"
-			(at 144.78 21.59 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/S1M-D.pdf"
-			(at 144.78 19.05 0)
+		(property "Footprint" "Solenoid Safeguard:DO-214AC"
+			(at 44.45 21.59 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6259,8 +6002,18 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DIODE GEN PURP 400V 1A SMA"
-			(at 149.86 26.67 0)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/SS19-D.PDF"
+			(at 44.45 19.05 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "DIODE SCHOTTKY 40V 1A SMA"
+			(at 39.37 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6268,8 +6021,8 @@
 				(hide yes)
 			)
 		)
-		(property "Digi-Key_PN" "S1GFSCT-ND"
-			(at 144.78 16.51 0)
+		(property "Digi-Key_PN" "SS14CT-ND"
+			(at 44.45 16.51 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6278,8 +6031,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "S1G"
-			(at 144.78 13.97 0)
+		(property "MPN" "SS14"
+			(at 44.45 13.97 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6289,7 +6042,7 @@
 			)
 		)
 		(property "Category" "Discrete Semiconductor Products"
-			(at 144.78 11.43 0)
+			(at 44.45 11.43 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6299,7 +6052,7 @@
 			)
 		)
 		(property "Family" "Diodes - Rectifiers - Single"
-			(at 144.78 8.89 0)
+			(at 44.45 8.89 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6308,8 +6061,8 @@
 				(hide yes)
 			)
 		)
-		(property "DK_Datasheet_Link" "https://www.onsemi.com/pub/Collateral/S1M-D.pdf"
-			(at 144.78 6.35 0)
+		(property "DK_Datasheet_Link" "https://www.onsemi.com/pub/Collateral/SS19-D.PDF"
+			(at 44.45 6.35 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6318,8 +6071,8 @@
 				(hide yes)
 			)
 		)
-		(property "DK_Detail_Page" "/product-detail/en/on-semiconductor/S1G/S1GFSCT-ND/965720"
-			(at 144.78 3.81 0)
+		(property "DK_Detail_Page" "/product-detail/en/on-semiconductor/SS14/SS14CT-ND/965729"
+			(at 44.45 3.81 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6328,8 +6081,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "DIODE GEN PURP 400V 1A SMA"
-			(at 144.78 1.27 0)
+		(property "Description_1" "DIODE SCHOTTKY 40V 1A SMA"
+			(at 44.45 1.27 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6339,7 +6092,7 @@
 			)
 		)
 		(property "Manufacturer" "ON Semiconductor"
-			(at 144.78 -1.27 0)
+			(at 44.45 -1.27 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6349,7 +6102,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 144.78 -3.81 0)
+			(at 44.45 -3.81 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6441,8 +6194,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 217.17 85.09 270)
-		(mirror x)
+		(at 214.63 82.55 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6451,7 +6203,7 @@
 		(fields_autoplaced yes)
 		(uuid "4fd005d1-1071-481c-9f4a-4621582cd8b6")
 		(property "Reference" "#PWR020"
-			(at 213.36 85.09 0)
+			(at 210.82 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6460,7 +6212,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 220.98 85.0901 90)
+			(at 218.44 82.5499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6469,7 +6221,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 217.17 85.09 0)
+			(at 214.63 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6478,7 +6230,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 85.09 0)
+			(at 214.63 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6487,7 +6239,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 217.17 85.09 0)
+			(at 214.63 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6764,7 +6516,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical"
 			(at 233.68 102.87 0)
 			(effects
 				(font
@@ -6832,7 +6584,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical"
 			(at 209.55 102.87 0)
 			(effects
 				(font
@@ -6969,7 +6721,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical"
 			(at 209.55 82.55 0)
 			(effects
 				(font
@@ -7310,8 +7062,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 215.9 95.25 270)
-		(mirror x)
+		(at 214.63 92.71 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7320,7 +7071,7 @@
 		(fields_autoplaced yes)
 		(uuid "892d9691-52b0-43de-8c87-9f3106b5fed8")
 		(property "Reference" "#PWR021"
-			(at 212.09 95.25 0)
+			(at 210.82 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7329,7 +7080,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 219.71 95.2501 90)
+			(at 218.44 92.7099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7338,7 +7089,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 95.25 0)
+			(at 214.63 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7347,7 +7098,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 95.25 0)
+			(at 214.63 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7356,7 +7107,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 215.9 95.25 0)
+			(at 214.63 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7377,9 +7128,8 @@
 		)
 	)
 	(symbol
-		(lib_id "dk_Diodes-Rectifiers-Single:S1G")
-		(at 52.07 92.71 0)
-		(mirror y)
+		(lib_id "dk_Diodes-Rectifiers-Single:SS14")
+		(at 114.3 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7388,33 +7138,23 @@
 		(fields_autoplaced yes)
 		(uuid "8d7704e8-4e10-4b33-a6fe-9e64358e27dc")
 		(property "Reference" "D6"
-			(at 52.07 86.36 0)
+			(at 115.57 86.36 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "S1G"
-			(at 52.07 88.9 0)
+		(property "Value" "SS14"
+			(at 115.57 88.9 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "digikey-footprints:DO-214AC"
-			(at 46.99 87.63 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/S1M-D.pdf"
-			(at 46.99 85.09 0)
+		(property "Footprint" "Solenoid Safeguard:DO-214AC"
+			(at 119.38 87.63 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7423,8 +7163,18 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DIODE GEN PURP 400V 1A SMA"
-			(at 52.07 92.71 0)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/SS19-D.PDF"
+			(at 119.38 85.09 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "DIODE SCHOTTKY 40V 1A SMA"
+			(at 114.3 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7432,8 +7182,8 @@
 				(hide yes)
 			)
 		)
-		(property "Digi-Key_PN" "S1GFSCT-ND"
-			(at 46.99 82.55 0)
+		(property "Digi-Key_PN" "SS14CT-ND"
+			(at 119.38 82.55 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7442,8 +7192,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "S1G"
-			(at 46.99 80.01 0)
+		(property "MPN" "SS14"
+			(at 119.38 80.01 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7453,7 +7203,7 @@
 			)
 		)
 		(property "Category" "Discrete Semiconductor Products"
-			(at 46.99 77.47 0)
+			(at 119.38 77.47 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7463,7 +7213,7 @@
 			)
 		)
 		(property "Family" "Diodes - Rectifiers - Single"
-			(at 46.99 74.93 0)
+			(at 119.38 74.93 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7472,8 +7222,8 @@
 				(hide yes)
 			)
 		)
-		(property "DK_Datasheet_Link" "https://www.onsemi.com/pub/Collateral/S1M-D.pdf"
-			(at 46.99 72.39 0)
+		(property "DK_Datasheet_Link" "https://www.onsemi.com/pub/Collateral/SS19-D.PDF"
+			(at 119.38 72.39 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7482,8 +7232,8 @@
 				(hide yes)
 			)
 		)
-		(property "DK_Detail_Page" "/product-detail/en/on-semiconductor/S1G/S1GFSCT-ND/965720"
-			(at 46.99 69.85 0)
+		(property "DK_Detail_Page" "/product-detail/en/on-semiconductor/SS14/SS14CT-ND/965729"
+			(at 119.38 69.85 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7492,8 +7242,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "DIODE GEN PURP 400V 1A SMA"
-			(at 46.99 67.31 0)
+		(property "Description_1" "DIODE SCHOTTKY 40V 1A SMA"
+			(at 119.38 67.31 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7503,7 +7253,7 @@
 			)
 		)
 		(property "Manufacturer" "ON Semiconductor"
-			(at 46.99 64.77 0)
+			(at 119.38 64.77 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7513,7 +7263,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 46.99 62.23 0)
+			(at 119.38 62.23 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8531,9 +8281,8 @@
 		)
 	)
 	(symbol
-		(lib_id "dk_Diodes-Rectifiers-Single:S1G")
-		(at 40.64 59.69 0)
-		(mirror y)
+		(lib_id "dk_Diodes-Rectifiers-Single:SS14")
+		(at 39.37 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8545,20 +8294,20 @@
 			(at 40.64 53.34 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "S1G"
+		(property "Value" "SS14"
 			(at 40.64 55.88 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "digikey-footprints:DO-214AC"
-			(at 35.56 54.61 0)
+		(property "Footprint" "Solenoid Safeguard:DO-214AC"
+			(at 44.45 54.61 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8567,8 +8316,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/S1M-D.pdf"
-			(at 35.56 52.07 0)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/SS19-D.PDF"
+			(at 44.45 52.07 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8577,8 +8326,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DIODE GEN PURP 400V 1A SMA"
-			(at 40.64 59.69 0)
+		(property "Description" "DIODE SCHOTTKY 40V 1A SMA"
+			(at 39.37 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8586,8 +8335,8 @@
 				(hide yes)
 			)
 		)
-		(property "Digi-Key_PN" "S1GFSCT-ND"
-			(at 35.56 49.53 0)
+		(property "Digi-Key_PN" "SS14CT-ND"
+			(at 44.45 49.53 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8596,8 +8345,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "S1G"
-			(at 35.56 46.99 0)
+		(property "MPN" "SS14"
+			(at 44.45 46.99 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8607,7 +8356,7 @@
 			)
 		)
 		(property "Category" "Discrete Semiconductor Products"
-			(at 35.56 44.45 0)
+			(at 44.45 44.45 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8617,7 +8366,7 @@
 			)
 		)
 		(property "Family" "Diodes - Rectifiers - Single"
-			(at 35.56 41.91 0)
+			(at 44.45 41.91 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8626,8 +8375,8 @@
 				(hide yes)
 			)
 		)
-		(property "DK_Datasheet_Link" "https://www.onsemi.com/pub/Collateral/S1M-D.pdf"
-			(at 35.56 39.37 0)
+		(property "DK_Datasheet_Link" "https://www.onsemi.com/pub/Collateral/SS19-D.PDF"
+			(at 44.45 39.37 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8636,8 +8385,8 @@
 				(hide yes)
 			)
 		)
-		(property "DK_Detail_Page" "/product-detail/en/on-semiconductor/S1G/S1GFSCT-ND/965720"
-			(at 35.56 36.83 0)
+		(property "DK_Detail_Page" "/product-detail/en/on-semiconductor/SS14/SS14CT-ND/965729"
+			(at 44.45 36.83 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8646,8 +8395,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "DIODE GEN PURP 400V 1A SMA"
-			(at 35.56 34.29 0)
+		(property "Description_1" "DIODE SCHOTTKY 40V 1A SMA"
+			(at 44.45 34.29 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8657,7 +8406,7 @@
 			)
 		)
 		(property "Manufacturer" "ON Semiconductor"
-			(at 35.56 31.75 0)
+			(at 44.45 31.75 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8667,7 +8416,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 35.56 29.21 0)
+			(at 44.45 29.21 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8852,7 +8601,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical"
 			(at 233.68 82.55 0)
 			(effects
 				(font
@@ -8895,8 +8644,8 @@
 		)
 	)
 	(symbol
-		(lib_id "dk_Diodes-Rectifiers-Single:S1G")
-		(at 85.09 167.64 90)
+		(lib_id "dk_Diodes-Rectifiers-Single:SS14")
+		(at 85.09 167.64 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8905,25 +8654,25 @@
 		(fields_autoplaced yes)
 		(uuid "bd76d65e-edd8-4885-a436-f5589b5b790f")
 		(property "Reference" "D7"
-			(at 87.63 166.3699 90)
+			(at 87.63 167.6399 90)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "S1G"
-			(at 87.63 168.9099 90)
+		(property "Value" "SS14"
+			(at 87.63 170.1799 90)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "digikey-footprints:DO-214AC"
-			(at 80.01 162.56 0)
+		(property "Footprint" "Solenoid Safeguard:DO-214AC"
+			(at 90.17 172.72 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8932,8 +8681,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/S1M-D.pdf"
-			(at 77.47 162.56 0)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/SS19-D.PDF"
+			(at 92.71 172.72 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8942,7 +8691,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DIODE GEN PURP 400V 1A SMA"
+		(property "Description" "DIODE SCHOTTKY 40V 1A SMA"
 			(at 85.09 167.64 0)
 			(effects
 				(font
@@ -8951,8 +8700,8 @@
 				(hide yes)
 			)
 		)
-		(property "Digi-Key_PN" "S1GFSCT-ND"
-			(at 74.93 162.56 0)
+		(property "Digi-Key_PN" "SS14CT-ND"
+			(at 95.25 172.72 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8961,8 +8710,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "S1G"
-			(at 72.39 162.56 0)
+		(property "MPN" "SS14"
+			(at 97.79 172.72 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8972,7 +8721,7 @@
 			)
 		)
 		(property "Category" "Discrete Semiconductor Products"
-			(at 69.85 162.56 0)
+			(at 100.33 172.72 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8982,7 +8731,7 @@
 			)
 		)
 		(property "Family" "Diodes - Rectifiers - Single"
-			(at 67.31 162.56 0)
+			(at 102.87 172.72 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8991,8 +8740,8 @@
 				(hide yes)
 			)
 		)
-		(property "DK_Datasheet_Link" "https://www.onsemi.com/pub/Collateral/S1M-D.pdf"
-			(at 64.77 162.56 0)
+		(property "DK_Datasheet_Link" "https://www.onsemi.com/pub/Collateral/SS19-D.PDF"
+			(at 105.41 172.72 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9001,8 +8750,8 @@
 				(hide yes)
 			)
 		)
-		(property "DK_Detail_Page" "/product-detail/en/on-semiconductor/S1G/S1GFSCT-ND/965720"
-			(at 62.23 162.56 0)
+		(property "DK_Detail_Page" "/product-detail/en/on-semiconductor/SS14/SS14CT-ND/965729"
+			(at 107.95 172.72 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9011,8 +8760,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "DIODE GEN PURP 400V 1A SMA"
-			(at 59.69 162.56 0)
+		(property "Description_1" "DIODE SCHOTTKY 40V 1A SMA"
+			(at 110.49 172.72 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9022,7 +8771,7 @@
 			)
 		)
 		(property "Manufacturer" "ON Semiconductor"
-			(at 57.15 162.56 0)
+			(at 113.03 172.72 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9032,7 +8781,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 54.61 162.56 0)
+			(at 115.57 172.72 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9082,7 +8831,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical"
 			(at 209.55 92.71 0)
 			(effects
 				(font
@@ -9150,7 +8899,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical"
 			(at 233.68 92.71 0)
 			(effects
 				(font
@@ -9873,16 +9622,16 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 240.03 85.09 270)
-		(mirror x)
+		(at 238.76 82.55 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "f011e14f-4882-4d1e-b24c-460676f329ac")
 		(property "Reference" "#PWR023"
-			(at 236.22 85.09 0)
+			(at 234.95 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9891,7 +9640,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 243.84 85.0901 90)
+			(at 242.57 82.5499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9900,7 +9649,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 240.03 85.09 0)
+			(at 238.76 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9909,7 +9658,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 85.09 0)
+			(at 238.76 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9918,7 +9667,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 240.03 85.09 0)
+			(at 238.76 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10006,9 +9755,8 @@
 		)
 	)
 	(symbol
-		(lib_id "dk_Diodes-Rectifiers-Single:S1G")
-		(at 93.98 26.67 0)
-		(mirror y)
+		(lib_id "dk_Diodes-Rectifiers-Single:SS14")
+		(at 95.25 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10017,33 +9765,23 @@
 		(fields_autoplaced yes)
 		(uuid "f7f81b85-4f75-4f8e-b977-cba6e8879d97")
 		(property "Reference" "D2"
-			(at 93.98 20.32 0)
+			(at 96.52 20.32 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "S1G"
-			(at 93.98 22.86 0)
+		(property "Value" "SS14"
+			(at 96.52 22.86 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "digikey-footprints:DO-214AC"
-			(at 88.9 21.59 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/S1M-D.pdf"
-			(at 88.9 19.05 0)
+		(property "Footprint" "Solenoid Safeguard:DO-214AC"
+			(at 100.33 21.59 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10052,8 +9790,18 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DIODE GEN PURP 400V 1A SMA"
-			(at 93.98 26.67 0)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/SS19-D.PDF"
+			(at 100.33 19.05 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "DIODE SCHOTTKY 40V 1A SMA"
+			(at 95.25 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10061,8 +9809,8 @@
 				(hide yes)
 			)
 		)
-		(property "Digi-Key_PN" "S1GFSCT-ND"
-			(at 88.9 16.51 0)
+		(property "Digi-Key_PN" "SS14CT-ND"
+			(at 100.33 16.51 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10071,8 +9819,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "S1G"
-			(at 88.9 13.97 0)
+		(property "MPN" "SS14"
+			(at 100.33 13.97 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10082,7 +9830,7 @@
 			)
 		)
 		(property "Category" "Discrete Semiconductor Products"
-			(at 88.9 11.43 0)
+			(at 100.33 11.43 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10092,7 +9840,7 @@
 			)
 		)
 		(property "Family" "Diodes - Rectifiers - Single"
-			(at 88.9 8.89 0)
+			(at 100.33 8.89 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10101,8 +9849,8 @@
 				(hide yes)
 			)
 		)
-		(property "DK_Datasheet_Link" "https://www.onsemi.com/pub/Collateral/S1M-D.pdf"
-			(at 88.9 6.35 0)
+		(property "DK_Datasheet_Link" "https://www.onsemi.com/pub/Collateral/SS19-D.PDF"
+			(at 100.33 6.35 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10111,8 +9859,8 @@
 				(hide yes)
 			)
 		)
-		(property "DK_Detail_Page" "/product-detail/en/on-semiconductor/S1G/S1GFSCT-ND/965720"
-			(at 88.9 3.81 0)
+		(property "DK_Detail_Page" "/product-detail/en/on-semiconductor/SS14/SS14CT-ND/965729"
+			(at 100.33 3.81 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10121,8 +9869,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "DIODE GEN PURP 400V 1A SMA"
-			(at 88.9 1.27 0)
+		(property "Description_1" "DIODE SCHOTTKY 40V 1A SMA"
+			(at 100.33 1.27 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10132,7 +9880,7 @@
 			)
 		)
 		(property "Manufacturer" "ON Semiconductor"
-			(at 88.9 -1.27 0)
+			(at 100.33 -1.27 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10142,7 +9890,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 88.9 -3.81 0)
+			(at 100.33 -3.81 0)
 			(effects
 				(font
 					(size 1.524 1.524)
